@@ -25,42 +25,17 @@ nav >ul > li >a {
   text-transform: uppercase;
 }
 nav > ul > li > a:hover{
-    color: burlywood;
+    color:  #C71585;
     padding: 14px;
     text-decoration: none;
     display:block;
 }
-
-
- /* nav {
-    margin: 0px auto;
-    padding: 10px 0;
-    margin-right: 0%;
-    background-color: rgb(73, 67, 67 ;
-  }
-  
-  nav > ul {
-    text-align: right;
-  }
-  
-  nav > ul > li {
-    display: inline-block;
-  }
-  
-  nav > ul > li > a {
-    padding: 14px;
-    margin-right: 0;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: block;
-    background-color: none;
-    border-radius: 15px;
-    color: rgba(248, 245, 245, 0.733);
-    font-size: 1.2rem;
-  }
-  
-  nav > ul > li > a:hover {
-    box-shadow: 0 0 10px rgba(252, 250, 250, 0.1),
-      inset 0 0 1px rgba(255, 255, 255, 0.6);
-  }
-    */
+#home{
+  background: url("Images/image1.jpg") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+/* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/image7.jpeg) center/ cover no-repeat fixed;
+  height: 60vh; */
