@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <div class="container-fluid">
         <nav>
             <ul>
@@ -21,12 +22,13 @@
             </ul>
         </nav>
         <div id="home">
-            <img src="Images/image2.jpeg" alt="Profile Image" style="border-radius: 50%;margin-top: 200px;"
-                width="150px">
+            <img class="profile" src="Images/image2.jpeg" alt="Profile Image">
             <h1 class="intro">Hello, I'm <span style="color: #C71585;">Peris Oduol</span></h1>
-            <h2 style="color: #f2f2f2;">I am a Software Developer</h2>
-            <a href=""><button class="button" style="color: #f2f2f2;">VIEW MY WORK</button></a>
+            <h2 class="intro"><em>I am a Software Developer</em></h2>
+            <a href="#skills"><button class="button">VIEW MY WORK</button></a>
         </div>
+        <br><br>
+
         <div id="about">
             <h2 class="one"><strong>About Me</strong></h2>
         </div>
@@ -42,7 +44,7 @@
                     <li>Kariobangi North Girls</li>
                 </ul>
             </div>
-            <div class="card2" style="text-align: center;">
+            <div class="card2">
                 <i class="fas fa-briefcase fa-7x"></i>
                 <h3>Work Experience</h3>
                 <P>Worked at LVCT where I Mentored girls in the slums.</P>
@@ -62,19 +64,45 @@
         </div>
         <br><br>
 
-        <div id="skills">
+        <div id="skills" class="container">
             <h2 class="two">Skills</h2>
-        </div>
-        <div>
-            <div class="card">
+            <div class="card_1">
                 <div class="card4">
-                    <img src="Images/image3.png" alt="CSS image" width="300px" height="200px">
+                    <img src="Images/image3.png" alt="CSS image" width="300px" height="px">
                     <h3>CSS</h3>
                 </div>
                 <div class="card5">
+                    <img src="Images/image4.png" alt="HTML image" width="500px">
+                    <h3>HTML</h3>
+                </div>
+                <div>
+                    <img src="Images/image5.png" alt="JS Image">
+                    <h3>Java script</h3>
                 </div>
             </div>
         </div>
+        <br><br>
+
+        <div id="projects">
+            <h2 class="three">Projects</h2>
+            <div class="projo">
+                <div class="card_3">
+                    <a href="https://perisoduol618.github.io/beauty_parlor/
+                        "><img src="Images/salon.png" alt="salon" width="300px"></a>
+                </div>
+                <div class="card_3">
+                    <a href="https://juliet879.github.io/Medwin-Cares-Hospital/"><img src="Images/hospital.png"
+                            alt="hospital" width="300px"></a>
+                </div>
+                <div class="card_3">
+                    <a href="https://nyururukelvin.github.io/pairProject/"><img src="Images/house.png"
+                            alt="house" width="300px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
