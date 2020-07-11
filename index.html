@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -19,26 +20,30 @@
 
 <body>
 
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me </a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+        <img class="profile" src="Images/image2.jpeg" alt="Profile Image">
+        <h1 class="intro"><strong>Hello, I'm <span style="color: #C71585;">Peris Oduol</span></strong></h1>
+        <h2 class="intro"><strong><em>I am a Software Developer</em></strong></h2>
+        <br>
+        <a href="#projects"> <button class="btn purple-gradient btn-rounded" type="submit">View my
+                work</button>
+        </a>
+
+    </div>
     <div class="container-fluid">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me </a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contacts">Contact</a></li>
-            </ul>
-        </nav>
-
-        <div id="home">
-            <img class="profile" src="Images/image2.jpeg" alt="Profile Image">
-            <h1 class="intro">Hello, I'm <span style="color: #C71585;">Peris Oduol</span></h1>
-            <h2 class="intro"><em>I am a Software Developer</em></h2>
-            <a href="#projects"><button class="button">VIEW MY WORK</button></a>
-        </div>
-
         <div id="about">
-            <h2 class="head"><strong>About Me</strong></h2>
+            <h2 class="head"><u>About Me</u></h2>
             <div class="title-underline"></div><br>
         </div>
         <div class="cardg">
@@ -74,108 +79,132 @@
 
 
         <div id="skills" class="container">
-            <h2 class="head">Skills</h2>
+            <h2 class="head"><u>Skills</u></h2>
             <br><br>
-            <div class="title-underline "></div>
+            <div class="title-underline"></div>
             <div class="card_1">
                 <div class="card4">
-                    <img src="Images/image3.png" alt="CSS image" width="200px">
-                    <h3>CSS</h3>
+                    <img src="Images/image4.png" alt="HTML image" width="250px">
+                    <h3 class="text-center"><strong>HTML</strong></h3>
                 </div>
                 <div class="card5">
-                    <img src="Images/image4.png" alt="HTML image" width="300px">
-                    <h3>HTML</h3>
+                    <img src="Images/image3.png" alt="CSS image" width="130px">
+                    <h3 class="text-center"><strong>CSS</strong></h3>
                 </div>
-
-            </div>
-            <div class="card_2 text-center">
+            </div><br><br>
+            <div class="card_2">
                 <div>
-                    <img src="Images/image5.png" alt="JS Image">
-                    <h3>Java script</h3>
+                    <img src="Images/image5.png" alt="JS Image" width="90px">
+                    <h3 class="text-center"><strong>Javascript</strong></h3>
+                </div>
+                <div>
+                    <img src="Images/image6.jpg" alt="JS Image" width="100px">
+                    <h3 class="text-center"><strong>Bootstrap</strong></h3>
                 </div>
             </div>
         </div>
 
 
-        <div id="projects">
-            <h2 class="head">Projects</h2>
-            <br><br>
-            <div class="projo">
-                <div class="card_3">
-                    <a href="https://perisoduol618.github.io/beauty_parlor/
-                        "><img src="Images/salon.png" alt="salon" width="400px"></a>
-                </div>
-                <div card class="card_3">
-                    <a href="https://juliet879.github.io/Medwin-Cares-Hospital/"><img src="Images/hospital.png"
-                            alt="hospital" width="400px"></a>
-                </div>
-                <div card class="card_3">
-                    <a href="https://nyururukelvin.github.io/pairProject/"><img src="Images/house.png" alt="house"
-                            width="400px"></a>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div id="contacts">
-            <h3 class="head">Contact</h3>
-            <br><br>
+        <div id="projects" class="container"></div>
+        <h2 class="head"><u>Projects</u></h2>
+        <br><br>
+        <div class="projo card-deck">
             <div class="card">
-                <h5 class="card-header unique-color-dark white-text text-center py-4">
-                    <strong>Fell free to contact me</strong>
-                </h5>
+                <div class="card_3">
+                    <a href="https://perisoduol618.github.io/beauty_parlor/" target="_blank"><img src="Images/salon.png"
+                            alt="salon" width="400px" height="250px" class="image"></a>
+                    <div class="middle">
+                        <a href="https://perisoduol618.github.io/beauty_parlor/" target="_blank"> <button
+                                class="btn purple-gradient btn-rounded" type="submit">View Project</button>
+                        </a>
+                    </div>
 
-                <!--Card content-->
-                <div class="card-body px-lg-5 pt-0">
-                    <!-- Form -->
-                    <form class="text-center" action="#!">
-
-                        <!-- Name -->
-                        <div class="md-form mt-3">
-                            <input type="text" id="materialContactFormName" class="form-control">
-                            <label for="materialContactFormName">Name</label>
-                        </div>
-
-                        <!-- E-mail -->
-                        <div class="md-form">
-                            <input type="email" id="materialContactFormEmail" class="form-control">
-                            <label for="materialContactFormEmail">E-mail</label>
-                        </div>
-
-
-                        <!--Message-->
-                        <div class="md-form">
-                            <textarea id="materialContactFormMessage" class="form-control md-textarea"
-                                rows="3"></textarea>
-                            <label for="materialContactFormMessage">Message</label>
-                        </div>
-
-                        <!-- Send button -->
-                        <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
-                            type="submit">Send</button>
-                    </form>
                 </div>
             </div>
-            <br>
-
-            <div class="foot">
-                <div id="icons" >
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i
-                            class="fab fa-instagram-square fa-2x"></i></a>
-                    <a href="https://github.com/PerisOduol618" target="_blank"><i
-                            class="fab fa-github-square fa-2x"></i>
-                        <br><br>
-
-                </div>
-                <div class="footer-copyright unique-color-dark text-center py-3">© 2020 Copyright:
-                    <a href="https://github.com/PerisOduol618" target="_blank"> Oduol Peris</a>
+            <div class="card">
+                <div class="card_3 ">
+                    <a href="https://juliet879.github.io/Medwin-Cares-Hospital/" target="_blank"><img
+                            src="Images/hospital.png" alt="hospital" width="400px" height="250px" class="image"></a>
+                    <div class="middle">
+                        <a href="https://juliet879.github.io/Medwin-Cares-Hospital/" target="_blank"> <button
+                                class="btn purple-gradient btn-rounded" type="submit">View Project</button>
+                        </a>
+                    </div>
                 </div>
             </div>
+            <div class="card">
+                <div class="card_3">
+                    <a href="https://nyururukelvin.github.io/pairProject/" target="_blank"><img src="Images/house.png"
+                            alt="house" width="400px" height="250px" class="image"></a>
+                    <div class="middle">
+                        <a href="https://nyururukelvin.github.io/pairProject/" target="_blank"> <button
+                                class="btn purple-gradient btn-rounded" type="submit">View Project</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <div id="contacts" class="container">
+        <h3 class="head"><u> Contact</u></h3>
+        <br><br>
+        <div class="card contact-form">
+            <h5 class="card-header unique-color-dark white-text text-center py-4">
+                <strong>Fell free to contact me</strong>
+            </h5>
+
+            <!--Card content-->
+            <div class="card-body px-lg-5 pt-0">
+                <!-- Form -->
+                <form class="text-center" action="#!">
+
+                    <!-- Name -->
+                    <div class="md-form mt-3">
+                        <input type="text" class="form-control" required>
+                        <label>Name</label>
+                    </div>
+
+                    <!-- E-mail -->
+                    <div class="md-form">
+                        <input type="email" class="form-control" required>
+                        <label>E-mail</label>
+                    </div>
+
+
+                    <!--Message-->
+                    <div class="md-form">
+                        <textarea class="form-control md-textarea" rows="3" required></textarea>
+                        <label>Message</label>
+                    </div>
+
+                    <!-- Send button -->
+                    <a href="#oduolpepe@gmail.com"> <button class="btn btn-outline purple-gradient btn-rounded"
+                            type="submit">Send</button></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+
+    <div id="#contacts" class="foot">
+        <div id="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+            <a href="https://github.com/PerisOduol618" target="_blank"><i class="fab fa-github-square fa-2x"></i>
+                <br><br>
 
         </div>
+        <div class="footer-copyright unique-color-dark text-center py-3">© 2020 Copyright:
+            <a href="" target="_blank"> Oduol Peris</a>
+        </div>
+    </div>
 
     </div>
+
+
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript"
