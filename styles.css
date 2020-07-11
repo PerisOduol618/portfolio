@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap");
 
 body {
   overflow-x: hidden;
@@ -6,10 +6,9 @@ body {
 
 nav {
   position: fixed;
-  background-color:#1C2331;
+  background-color: #1c2331;
   width: 100%;
-  top: 0;
-  /* height: 50px; */
+  z-index: 1;
 }
 
 nav > ul {
@@ -23,27 +22,24 @@ nav > ul > li > a {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px;
   text-decoration: none;
   font-size: 15px;
   text-transform: uppercase;
 }
 nav > ul > li > a:hover {
   color: #c71585;
-  padding: 14px;
   text-decoration: none;
   display: block;
 }
 #home {
-  /* background: url("Images/image1.jpg") center no-repeat;
-  background-size: cover; */
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(Images/image1.jpg) center/ cover no-repeat fixed;
   height: 100vh;
   text-align: center;
   width: 100%;
-}
-.profile{
+} 
+.profile {
   border-radius: 50%;
   margin-top: 200px;
   width: 150px;
@@ -57,12 +53,15 @@ nav > ul > li > a:hover {
   height: 7%;
   color: #f2f2f2;
 }
-#about,#skills,#projects,#contacts{
-  padding-top: 70px;
+#about,
+#skills,
+#projects,
+#contacts {
+  padding-top: 80px;
 }
-.head{
+.head {
   text-align: center;
-  font-family: 'Charm', cursive;
+  font-family: "Charm", cursive;
   font-size: 100px;
 }
 .cardg {
@@ -82,7 +81,8 @@ nav > ul > li > a:hover {
 .two {
   text-align: center;
 }
-.card_1 {
+.card_1,
+.card_2 {
   width: 30%;
   display: flex;
   justify-content: space-around;
@@ -92,17 +92,43 @@ nav > ul > li > a:hover {
   text-align: center;
 }
 
-.projo{
-  display: flex;
-  justify-content: space-around;
-}
-
 #icons {
   text-align: center;
   padding-right: 30px;
+  padding-top: 20px;
 }
 
 #icons > a {
   padding-right: 30px;
 }
+.foot {
+  background-color: #1c2331;
+}
 
+.contact-form {
+  margin: 0 auto;
+  width: 700px;
+  float: none;
+  display: block;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card_3:hover .image {
+  opacity: 0.3;
+}
+
+.card_3:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+.l {
+  list-style: none;
+}
