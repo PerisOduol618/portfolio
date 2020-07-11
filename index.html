@@ -7,11 +7,29 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container-fluid">
+        <br><br><br><br>
+        <div id="icons" style="text-align: center;">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href="https://ke.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+            <br><br>
+
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -25,18 +43,18 @@
             <img class="profile" src="Images/image2.jpeg" alt="Profile Image">
             <h1 class="intro">Hello, I'm <span style="color: #C71585;">Peris Oduol</span></h1>
             <h2 class="intro"><em>I am a Software Developer</em></h2>
-            <a href="#skills"><button class="button">VIEW MY WORK</button></a>
+            <a href="#projects"><button class="button">VIEW MY WORK</button></a>
         </div>
-        <br><br>
 
         <div id="about">
-            <h2 class="one"><strong>About Me</strong></h2>
+            <h2 class="head"><strong>About Me</strong></h2>
+            <div class="title-underline"></div><br>
         </div>
-        <div class="card">
+        <div class="cardg">
             <div class="card1">
                 <div style="text-align: center;">
                     <i class="fas fa-graduation-cap fa-7x"></i>
-                    <h3>Education Backgroud</h3>
+                    <h3><strong>Education Backgroud</strong></h3>
                 </div>`
                 <ul>
                     <li>Moringa School</li>
@@ -46,13 +64,13 @@
             </div>
             <div class="card2">
                 <i class="fas fa-briefcase fa-7x"></i>
-                <h3>Work Experience</h3>
+                <h3><strong>Work Experience</strong> </h3>
                 <P>Worked at LVCT where I Mentored girls in the slums.</P>
             </div>
             <div class="card3">
                 <div style="text-align: center;">
                     <i class="fas fa-hand-holding-heart fa-7x"></i>
-                    <h3>Hobbies</h3>
+                    <h3><strong>Hobbies</strong></h3>
                 </div>
                 <ol>
                     <li>Codding</li>
@@ -62,47 +80,105 @@
                 </ol>
             </div>
         </div>
-        <br><br>
+
 
         <div id="skills" class="container">
-            <h2 class="two">Skills</h2>
+            <h2 class="head">Skills</h2>
+            <br><br>
+            <div class="title-underline "></div>
             <div class="card_1">
                 <div class="card4">
-                    <img src="Images/image3.png" alt="CSS image" width="300px" height="px">
+                    <img src="Images/image3.png" alt="CSS image" width="200px">
                     <h3>CSS</h3>
                 </div>
                 <div class="card5">
-                    <img src="Images/image4.png" alt="HTML image" width="500px">
+                    <img src="Images/image4.png" alt="HTML image" width="300px">
                     <h3>HTML</h3>
                 </div>
+
+            </div>
+            <div class="card_2 text-center">
                 <div>
                     <img src="Images/image5.png" alt="JS Image">
                     <h3>Java script</h3>
                 </div>
             </div>
         </div>
-        <br><br>
+
 
         <div id="projects">
-            <h2 class="three">Projects</h2>
+            <h2 class="head">Projects</h2>
+            <br><br>
             <div class="projo">
                 <div class="card_3">
                     <a href="https://perisoduol618.github.io/beauty_parlor/
-                        "><img src="Images/salon.png" alt="salon" width="300px"></a>
+                        "><img src="Images/salon.png" alt="salon" width="400px"></a>
                 </div>
-                <div class="card_3">
+                <div card class="card_3">
                     <a href="https://juliet879.github.io/Medwin-Cares-Hospital/"><img src="Images/hospital.png"
-                            alt="hospital" width="300px"></a>
+                            alt="hospital" width="400px"></a>
                 </div>
-                <div class="card_3">
-                    <a href="https://nyururukelvin.github.io/pairProject/"><img src="Images/house.png"
-                            alt="house" width="300px"></a>
+                <div card class="card_3">
+                    <a href="https://nyururukelvin.github.io/pairProject/"><img src="Images/house.png" alt="house"
+                            width="400px"></a>
                 </div>
             </div>
         </div>
+        <br><br><br><br>
+
+        <div id="contacts">
+            <h3 class="head">Contact</h3>
+            <br><br>
+            <div class="card">
+                <h5 class="card-header purple-gradient white-text text-center py-4">
+                    <strong>Fell free to contact me</strong>
+                </h5>
+
+                <!--Card content-->
+                <div class="card-body px-lg-5 pt-0">
+                    <!-- Form -->
+                    <form class="text-center" action="#!">
+
+                        <!-- Name -->
+                        <div class="md-form mt-3">
+                            <input type="text" id="materialContactFormName" class="form-control">
+                            <label for="materialContactFormName">Name</label>
+                        </div>
+
+                        <!-- E-mail -->
+                        <div class="md-form">
+                            <input type="email" id="materialContactFormEmail" class="form-control">
+                            <label for="materialContactFormEmail">E-mail</label>
+                        </div>
+
+
+                        <!--Message-->
+                        <div class="md-form">
+                            <textarea id="materialContactFormMessage" class="form-control md-textarea"
+                                rows="3"></textarea>
+                            <label for="materialContactFormMessage">Message</label>
+                        </div>
+
+                        <!-- Send button -->
+                        <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
+                            type="submit">Send</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+    <script src="https://cdn.rawgit.com/mburakerman/prognroll/master/src/prognroll.js"></script>
 </body>
 
 </html>
