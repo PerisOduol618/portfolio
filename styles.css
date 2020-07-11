@@ -57,7 +57,7 @@ nav > ul > li > a:hover {
   height: 7%;
   color: #f2f2f2;
 }
-#about,#skills,#projects{
+#about,#skills,#projects,#contacts{
   padding-top: 70px;
 }
 .head{
@@ -96,3 +96,13 @@ nav > ul > li > a:hover {
   display: flex;
   justify-content: space-around;
 }
+
+#icons {
+  text-align: center;
+  padding-right: 30px;
+}
+
+#icons > a {
+  padding-right: 30px;
+}
+
